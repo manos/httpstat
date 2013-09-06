@@ -18,7 +18,7 @@ Output:
     After following any redirects, will output the following, over the
     last 500 datapoints (in seconds):
 
-domain  last min max avg stddev net_time
+domain  status last min max avg stddev net_time
 
 domain:   the domain requested, and external resources if -a is used.
 status:   HTTP response code
