@@ -1,0 +1,21 @@
+HTTPStat
+--------
+Continually monitors a URL, producing iostat- or vmstat-like output of response times.
+
+Includes response times of external resources on the page (images, css, javascript), if
+-e option is used, because the most common cause of user-perceived slowness, is external
+calls to services you don't control (ad servers, analytics, etc).
+
+Note: this script does not render the page or execute any javascript, so it's purely
+measuring *server* response time to fetch the resources.
+
+INSTALLING
+----------
+'pip install -r requirements.pip' will install all dependencies.
+
+RUNNING
+-------
+See: ./httpstat.py --help
+
+
+
